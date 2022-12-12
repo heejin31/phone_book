@@ -14,7 +14,7 @@ const ContactItem = ({ item }) => {
         </Col>
         <Col xs className={style.text}>
           <h5>{item.name}</h5>
-          <p>{item.phonenumber}</p>
+          <p>{item.phoneNumber}</p>
         </Col>
       </Row>
     </div>
